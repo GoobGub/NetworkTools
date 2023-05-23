@@ -131,10 +131,7 @@ def menu():
         print("7. Exit")
         choice = input("Enter your choice: ")
         if choice == "1":
-            running_apps = get_running_apps()
-            if not running_apps:
-                print("[!] No running applications found.")
-            else:
+            if running_apps := get_running_apps():
                 print("Running Applications:")
                 for i, app_name in enumerate(running_apps, 1):
                     print(f"{i}. {app_name}")
@@ -148,6 +145,8 @@ def menu():
                         print("[!] Invalid application number.")
                 except ValueError:
                     print("[!] Invalid input.")
+            else:
+                print("[!] No running applications found.")
         elif choice == "2":
             print("[*] Starting packet sniffing...")
             sniff(filter="ip", prn=packet_sniffer, count=10)
