@@ -3,7 +3,8 @@
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-![NetworkTools Logo](https://github.com/GoobGub/NetworkTools/assets/networktools-logo.png)
+![Network Tools](https://github.com/GoobGub/NetworkTools/assets/129594730/0a7b4cf4-2d2d-4667-9be1-cb89c0dc6495)
+
 
 NetworkTools is a collection of simple and easy-to-use network hacking tools. It provides a menu-driven interface for performing various network-related tasks.
 
